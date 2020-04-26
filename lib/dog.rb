@@ -10,6 +10,15 @@ class Dog
     @@all << self
   end
 
+  def self.print_all
+    ææall.print
+  end 
+  
+  def self.all
+    @@all. each do |d|
+        puts d.name
+  end 
+  
   def self.clear_all
     @@all.clear
   end
