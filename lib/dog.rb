@@ -11,14 +11,11 @@ class Dog
   end
 
   def self.print_all
-    ææall.print
+    @@all.print
   end 
+  #####
   
-  def self.all
-    @@all. each do |d|
-        puts d.name
-  end
-end 
+  ####
   
   def self.clear_all
     @@all.clear
